@@ -5,7 +5,7 @@ Here are some useful chayns® API code snippets. This code snippets give you reu
 These snippets each cover the neccessary HTML, CSS and JavaScript components. 
 
 * [Login](https://github.com/TobitSoftware/chayns-snippets/tree/master/Frontend/Login.md)
-* [Send intercom message from User to Page](https://github.com/ST-bschulze/chayns-snippets/tree/master/Frontend/IntercomMessageToPage.md)
+* [Send intercom message from User to Page](https://github.com/TobitSoftware/chayns-snippets/blob/master/Frontend/IntercomMessageToPage.md)
 * Frontend Snippet 3
 
 ## Backend
