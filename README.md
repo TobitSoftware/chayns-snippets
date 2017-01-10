@@ -18,4 +18,4 @@ Remember that the JavaScript implementation is frontend only and requires a spec
 
 * [User Validation](https://github.com/TobitSoftware/chayns-snippets/tree/master/Backend/UserValidation)
 * [Add User to UAC group](https://github.com/TobitSoftware/chayns-snippets/tree/master/Backend/AddUserToUacGroup)
-* ..
+* [Intercom message to user](https://github.com/TobitSoftware/chayns-snippets/tree/master/Backend/IntercomToUser)
