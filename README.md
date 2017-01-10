@@ -6,7 +6,7 @@ These snippets each cover the neccessary HTML, CSS and JavaScript components.
 
 * [Login](https://github.com/TobitSoftware/chayns-snippets/tree/master/Frontend/Login.md)
 * [Send intercom message from User to Page](https://github.com/TobitSoftware/chayns-snippets/blob/master/Frontend/IntercomMessageToPage.md)
-* ..
+* [Send intercom message from Customer Service to User](https://github.com/TobitSoftware/chayns-snippets/blob/master/Frontend/IntercomMessageToUser.md)
 
 ## Backend
 
