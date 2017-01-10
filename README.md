@@ -22,4 +22,4 @@ Remember that the JavaScript implementation is frontend only and requires a spec
 * [Check for UAC group](https://github.com/TobitSoftware/chayns-snippets/tree/master/Backend/CheckForUACGroup)
 * [Create UAC group](https://github.com/TobitSoftware/chayns-snippets/tree/master/Backend/CreateUACGroup)
 * [Email to group](https://github.com/TobitSoftware/chayns-snippets/tree/master/Backend/EmailToGroup)
-* [Get user by QR code](https://github.com/TobitSoftware/chayns-snippets/tree/master/Backend/GetUSerByQRCode)
+* [Get user by QR code](https://github.com/TobitSoftware/chayns-snippets/tree/master/Backend/GetUserByQRCode)
