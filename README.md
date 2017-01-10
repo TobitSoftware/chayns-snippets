@@ -9,6 +9,7 @@ These snippets each cover the neccessary HTML, CSS and JavaScript components.
 * [Send intercom message from Customer Service to User](https://github.com/TobitSoftware/chayns-snippets/blob/master/Frontend/IntercomMessageToUser.md)
 * [Share by eMail](https://github.com/TobitSoftware/chayns-snippets/blob/master/Frontend/ShareByEmail.md)
 * [NFC Detection](https://github.com/TobitSoftware/chayns-snippets/blob/master/Frontend/NfcDetection.md)
+* [Check for UAC Group](https://github.com/TobitSoftware/chayns-snippets/blob/master/Frontend/CheckForUacGroup.md)
 
 ## Backend
 
