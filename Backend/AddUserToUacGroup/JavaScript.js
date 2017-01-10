@@ -3,7 +3,7 @@ var PageAccessToken = GetPageAccessToken(chayns.env.site.tapp.id, function (res)
 var Server = 'https://api.chayns.net/v2.0';
 function SendMessage(message, users, groups, locations,      groupChat) {
     var config = {
-        url: Server + '/' + chayns.env.site.locationId + '/Intercom, 
+        url: Server + '/' + chayns.env.site.locationId + '/Intercom', 
         headers: {
             'Content-Type': 'application/json',
             'Authorization': 'Bearer ' + PageAccessToken
