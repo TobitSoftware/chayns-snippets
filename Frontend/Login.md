@@ -7,7 +7,7 @@ It suppports 3 cases
 * If the user has logged in using the button, a message saying 'Thank you for logging in.' is shown
 
 ### HTML
-```
+```html
 <div>
   <button class="button hidden" id="loginButton" onClick="login();">
     Login
@@ -20,14 +20,14 @@ It suppports 3 cases
 ```
 
 ### CSS
-```
+```css
 .hidden {
   display: none;                   
 }
 ```
 
 ### JavaScript
-```
+```javascript
 chayns.ready.then(function () {
   checkForLogin();                                 
 });
