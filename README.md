@@ -13,9 +13,10 @@ These snippets each cover the neccessary HTML, CSS and JavaScript components.
 
 ## Backend
 
-Each Backend Snippet is avaliable in the languages JavaScript, C#, Node.JS and PHP.<br>
+Each Backend Snippet is (or will be) avaliable in the languages JavaScript, C#, Node.JS and PHP.<br>
 Remember that the JavaScript implementation is frontend only and requires a special authentication.
 
+* [Create a PageAccessToken](https://github.com/TobitSoftware/chayns-snippets/tree/master/Backend/CreatePageAccessToken)
 * [User Validation](https://github.com/TobitSoftware/chayns-snippets/tree/master/Backend/UserValidation)
 * [Add User to UAC group](https://github.com/TobitSoftware/chayns-snippets/tree/master/Backend/AddUserToUacGroup)
 * [Send intercom message to user](https://github.com/TobitSoftware/chayns-snippets/tree/master/Backend/IntercomToUser)
