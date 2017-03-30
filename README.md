@@ -1,3 +1,5 @@
+[![license](https://img.shields.io/github/license/TobitSoftware/chayns-snippets.svg)]() [![GitHub pull requests](https://img.shields.io/github/issues-pr/TobitSoftware/chayns-snippets.svg)]() [![](https://img.shields.io/github/issues-pr-closed-raw/TobitSoftware/chayns-snippets.svg)]()
+
 # Table of Contents
 Here are some useful chayns® API code snippets. This code snippets give you reusable source code, that you can use in your Tapp by just copying and pasting them to your source code.
 
