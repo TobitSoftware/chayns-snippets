@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <style>
+        </style>
+    </head>
+    <body>
+        <div id="widget--map--container">
+        </div>
+        
+        <script>
+        
+            function getURLParameter(name) {
+              return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search) || [null, ''])[1].replace(/\+/g, '%20')) || null;
+            }
+            var query = getURLParameter("destination");
+            if (query && query.length > 0) {
+                var map = document.createElement('iframe');
+                map.id = "widget--map";
+                map.width = "100%"
+                map.height = "250";
+                map.frameborder = "0";
+                map.style = "border:0";
+                map.allowfullscreen = true;
+                map.src = "https://www.google.com/maps/embed/v1/place?key=InsertOwnAPIKeyHere&q=" + query; //Inser your google api key here
+                document.getElementById('widget--map--container').appendChild(map)
+            } else {
+                alert("missing destination parameter")
+            }
+            
+            
+
+        </script>
+    </body>
+</html>
