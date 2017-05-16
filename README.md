@@ -7,8 +7,8 @@ Here are some useful chayns® API code snippets. This code snippets give you reu
 These widget can immediately be used in pagemaker tapps as iframes.<br>
 Changes to the widgets can easly be done to fit your requirements.
 
-* [Maps Navigation](https://github.com/TobitSoftware/chayns-snippets/tree/master/Widget/MapsNavigation/)
-* [SharingBar](https://github.com/TobitSoftware/chayns-snippets/tree/master/Widget/Sharingbar/)
+* [Maps Navigation](https://github.com/TobitSoftware/chayns-snippets/tree/master/PagemakerWidget/MapsNavigation/)
+* [SharingBar](https://github.com/TobitSoftware/chayns-snippets/tree/master/PagemakerWidget/Sharingbar/)
 
 ## Frontend
 These snippets each cover the neccessary HTML, CSS and JavaScript components. 
