@@ -3,6 +3,13 @@
 # Table of Contents
 Here are some useful chayns® API code snippets. This code snippets give you reusable source code, that you can use in your Tapp by just copying and pasting them to your source code.
 
+## Pagemaker Widget
+These widget can immediately be used in pagemaker tapps as iframes.<br>
+Changes to the widgets can easly be done to fit your requirements.
+
+* [Maps Navigation](https://github.com/TobitSoftware/chayns-snippets/tree/master/Widget/MapsNavigation/)
+* [SharingBar](https://github.com/TobitSoftware/chayns-snippets/tree/master/Widget/Sharingbar/)
+
 ## Frontend
 These snippets each cover the neccessary HTML, CSS and JavaScript components. 
 
