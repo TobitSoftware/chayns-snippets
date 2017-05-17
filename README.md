@@ -5,7 +5,8 @@ Here are some useful chayns® API code snippets. This code snippets give you reu
 
 ## Pagemaker Widget
 These widget can immediately be used in pagemaker tapps as iframes.<br>
-Changes to the widgets can easly be done to fit your requirements.
+Changes to the widgets can easly be done to fit your requirements.<br>
+For more information on setting up pagemaker widgets, take a look at [this description](https://github.com/TobitSoftware/chayns-js/wiki/Pagemaker-Iframes).
 
 * [Maps Navigation](https://github.com/TobitSoftware/chayns-snippets/tree/master/PagemakerWidget/MapsNavigation/)
 * [SharingBar](https://github.com/TobitSoftware/chayns-snippets/tree/master/PagemakerWidget/Sharingbar/)
