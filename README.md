@@ -10,6 +10,7 @@ For more information on setting up pagemaker widgets, take a look at [this descr
 
 * [Maps Navigation](https://github.com/TobitSoftware/chayns-snippets/tree/master/PagemakerWidget/MapsNavigation/)
 * [SharingBar](https://github.com/TobitSoftware/chayns-snippets/tree/master/PagemakerWidget/Sharingbar/)
+* [Template](https://github.com/TobitSoftware/chayns-snippets/tree/master/PagemakerWidget/chayns-template-widget/) - If you want to build your very own widget, check this out
 
 ## Frontend
 These snippets each cover the neccessary HTML, CSS and JavaScript components. 
