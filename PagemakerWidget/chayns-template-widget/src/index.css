@@ -1,0 +1,15 @@
+/**
+*
+* Create your Stylesheets on the same level as the referring script
+* Then import the stylesheet in the specific script (example in the index.js)
+*
+*/
+
+.hidden {
+    display: none;
+}
+
+.tapp {
+    margin: 0;
+    padding: 0;
+}

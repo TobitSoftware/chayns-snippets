@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--Add Meta-Tags for scaling etc.-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1, maximum-scale=1"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta charset="utf-8">
+
+    <title>Tapp</title>
+
+    <!--Load the chayns styles-->
+    <link rel="stylesheet" href="//chayns-res.tobit.com/API/V3.1/css/chayns.min.css">
+    <style>
+        /*
+          Stylesheets(.css and .scss) should be created referring to a js oder jsx file as described in the index.js and index.css
+        */
+    </style>
+</head>
+<body>
+<div class="tapp">
+    <div class="tapp__intro">
+        <h2 id="headline"></h2>
+        <p>
+            This 'tapp' is a simple showcase of how the pagemaker widgets using the chayns® API are working. Try it out in your pagemaker tapp.
+        </p>
+    </div>
+
+    <div class="tapp__content">
+        <div class="accordion accordion--open accordion--fixed">
+            <div class="accordion__head">Sample Accordion</div>
+            <div class="accordion__body">
+                <div class="accordion__content">
+                    This accordion is fixed in it's height because of the fixed iframe height. It would not adjust itself so the accordion could fit in. <br>
+                    So make sure to use fixed heights to not cut the view of your widget.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Load the js chayns API-->
+<script src="//chayns-res.tobit.com/API/V3.1/js/chayns.min.js"></script>
+</body>
+</html>
