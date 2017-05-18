@@ -1,5 +1,3 @@
-[![license](https://img.shields.io/github/license/TobitSoftware/chayns-template-es6.svg)]() [![GitHub pull requests](https://img.shields.io/github/issues-pr/TobitSoftware/chayns-template-es6.svg)]() [![](https://img.shields.io/github/issues-pr-closed-raw/TobitSoftware/chayns-template-es6.svg)]()
-
 # chayns+ES2015 Pagemaker Widget Template
 
 This template offers you an easy start into developing widget for chayns® pagemakers using the chayns® API.
