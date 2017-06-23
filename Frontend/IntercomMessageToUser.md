@@ -23,35 +23,30 @@ The UserId of the user can by found, like in this example, by the person finder.
 
 ### JavaScript
 ```
-function toUser() {
- if (chayns.env.user.isAuthenticated) { 
-  var message = 
-  document.querySelector('#i1').value;
-  var finder = document.querySelector('#i2');
-  var user;
-  finder.addEventListener('finderChange', 
-   function (data) { 
+var user;
+document.querySelector('#i2').addEventListener('finderChange', 
+  function (data) { 
     chayns.getUser({
-     'personId': data.user.personId
+      'personId': data.user.personId
     }).then(function(result) {
       user = result.UserID;
-    })
-   });
-   
-   chayns.intercom.sendMessageToUser(
-    user, 
-    { 
-     text: message
+    });
+});
+
+function toUser() {
+  if (chayns.env.user.isAuthenticated) { 
+    var message = document.querySelector('#i1').value;
+    if (user && mesage) {
+      chayns.intercom.sendMessageToUser(user, { text: message }).then(function (result) {
+	if (result.ok) {
+	  chayns.dialog.alert('', 'Your message was send');
+	} else {
+	  chayns.dialog.alert('', 'An error occured');
+	}
+      });
     }
-   ).then(function (result) {
-   if (result.ok) {
-    chayns.dialog.alert('', 'Your message was send');
-   } else {
-    chayns.dialog.alert('', 'An error occured');
-   }
-  });
- } else {
-	chayns.dialog.alert('Login missing', 'To send a message, you have to login.');
- }
+  } else {
+    chayns.dialog.alert('Login missing', 'To send a message, you have to login.');
+  }
 }
  ```
