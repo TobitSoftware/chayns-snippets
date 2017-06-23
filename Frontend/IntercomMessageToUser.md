@@ -36,7 +36,7 @@ document.querySelector('#i2').addEventListener('finderChange',
 function toUser() {
   if (chayns.env.user.isAuthenticated) { 
     var message = document.querySelector('#i1').value;
-    if (user && mesage) {
+    if (user && message) {
       chayns.intercom.sendMessageToUser(user, { text: message }).then(function (result) {
 	if (result.ok) {
 	  chayns.dialog.alert('', 'Your message was send');
