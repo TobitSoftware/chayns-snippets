@@ -1,8 +1,7 @@
-# Send intercom message from Customer Service to User
+# Send intercom message from User to User
 
-This sample allows members of the Uac Group 'Customer Service' to send a intercom message to an user.<br> 
-On begin it will be checked, if the user is logged in. <br>
-The UserId of the user can by found, like in this example, by the person finder.
+At first it will be checked, if the user is logged in. <br>
+The UserId of the user can be found, like in this example, by the person finder.
 
 ### HTML
 ```
@@ -14,7 +13,7 @@ The UserId of the user can by found, like in this example, by the person finder.
   <div style='text-align: center'>
     
     <button class='button' onClick='toUser();'>
-      From Customer Service To User
+      Send Message
     </button>
       
   </div>
