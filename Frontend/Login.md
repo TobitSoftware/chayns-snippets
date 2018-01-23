@@ -26,7 +26,7 @@ It suppports 3 cases
 }
 ```
 
-### JavaScript
+### JavaScript 
 ```javascript
 chayns.ready.then(function () {
   checkForLogin();                                 
@@ -43,6 +43,11 @@ function checkForLogin() {
 }
 
 function login() {
+  //optional -> prevents site reload
+  chayns.setAccessTokenChange(true, (envData) function {   
+    console.log('login successful');        
+  });
+
   //reloads tapp after login
   chayns.login(['login=true']);
  }
