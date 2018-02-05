@@ -44,7 +44,7 @@ function checkForLogin() {
 
 function login() {
   //optional -> prevents site reload
-  chayns.setAccessTokenChange(true, (envData) function {   
+  chayns.setAccessTokenChange(true, function() {   
     console.log('login successful');        
   });
 
