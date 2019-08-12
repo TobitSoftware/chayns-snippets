@@ -44,11 +44,11 @@ function checkForLogin() {
 
 function login() {
   //optional -> prevents site reload
-  chayns.addAccessTokenChangeListener(true, function() {   
+  chayns.addAccessTokenChangeListener(()=> {   
     console.log('login successful');        
   });
 
-  //reloads tapp after login
-  chayns.login(['login=true']);
+  //no reload tapp after login
+  chayns.login();
  }
  ```
